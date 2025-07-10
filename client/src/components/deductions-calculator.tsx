@@ -168,11 +168,11 @@ export default function DeductionsCalculator() {
             <TooltipProvider>
               <Tooltip>
                 <TooltipTrigger>
-                  <HelpCircle className="h-4 w-4 text-gray-400" />
+                  <HelpCircle className="h-6 w-6 text-gray-500" />
                 </TooltipTrigger>
                 <TooltipContent>
                   <p className="max-w-xs">
-                    Esta calculadora sirve para dos propósitos: calcular deducciones de un salario bruto conocido, 
+                  ℹ️ Esta calculadora sirve para dos propósitos: calcular deducciones de un salario bruto conocido, 
                     o estimar el salario bruto necesario para obtener un salario neto deseado.
                   </p>
                 </TooltipContent>
