@@ -12,17 +12,17 @@ export default function CalculatorPage() {
       {/* Header */}
       <header className="bg-white shadow-sm border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-16">
+        <div className="flex flex-col md:flex-row md:justify-between md:items-center h-auto md:h-16 py-3 md:py-0 gap-2">
             <div className="flex items-center space-x-3">
               <div className="bg-primary p-2 rounded-lg">
                 <Calculator className="h-6 w-6 text-white" />
               </div>
               <div>
                 <h1 className="text-xl font-bold text-gray-900">Calculadora Freelance</h1>
-                <p className="text-sm text-gray-600">Panamá - Cálculos oficiales</p>
+                <p className="text-sm text-gray-600">Profesionales Independientes en Panamá</p>
               </div>
             </div>
-            <div className="flex items-center space-x-2">
+            <div className="flex items-center justify-center md:justify-end space-x-2">
               <span className="text-sm text-gray-600">🇵🇦</span>
               <span className="text-sm font-medium text-gray-700">República de Panamá</span>
             </div>
