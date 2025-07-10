@@ -23,7 +23,7 @@ export default function FreelanceCalculator() {
         training: 100,
         otherExpenses: 200,
         incomeTax: 15, // 15% para ingresos hasta $50,000 según DGI
-        socialSecurity: 7.25, // CSS IVM obligatorio para independientes según Ley 51-2005 modificada 2025
+        socialSecurity: 9.36, // CSS IVM obligatorio para independientes según Ley 51-2005 modificada 2025
         educationInsurance: 1.25, // Seguro educativo
         hoursPerWeek: 40,
         weeksPerYear: 50,
@@ -39,7 +39,7 @@ export default function FreelanceCalculator() {
         training: 100,
         otherExpenses: 200,
         incomeTax: 15, // 15% para ingresos hasta $50,000 según DGI
-        socialSecurity: 7.25, // CSS IVM obligatorio para independientes según Ley 51-2005 modificada 2025
+        socialSecurity: 9.36, // CSS IVM obligatorio para independientes según Ley 51-2005 modificada 2025
         educationInsurance: 1.25, // Seguro educativo
         hoursPerWeek: 40,
         weeksPerYear: 50,
