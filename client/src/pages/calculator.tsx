@@ -95,7 +95,9 @@ export default function CalculatorPage() {
               © 2025 Calculadora Freelance Panamá. Cálculos basados en legislación vigente al 10 de Julio de 2025, República de Panamá.
             </p>
             <p className="text-xs text-gray-500 mt-2">
-              Esta herramienta es informativa. Consulte con un profesional para asesoría fiscal específica.
+              Esta herramienta es informativa y sirve para estimaciones. 
+              Recuerda consultar con un contador autorizado. 
+              Si tienes feedback para este app, <a href="mailto:hola@mfgonz.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">escríbeme.</a>
             </p>
           </div>
         </div>
