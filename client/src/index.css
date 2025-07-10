@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #FBFBFB;
+  --foreground: #004E89;
+  --muted: #FFECDD;
+  --muted-foreground: #1A659E;
+  --popover: #FBFBFB;
+  --popover-foreground: #004E89;
+  --card: #FBFBFB;
+  --card-foreground: #004E89;
+  --border: #FFECDD;
+  --input: #FFECDD;
+  --primary: #FF6B35;
+  --primary-foreground: #FBFBFB;
+  --secondary: #1A659E;
+  --secondary-foreground: #FBFBFB;
+  --accent: #FFECDD;
+  --accent-foreground: #004E89;
+  --destructive: #FF6B35;
+  --destructive-foreground: #FBFBFB;
+  --ring: #FF6B35;
+  --radius: 0.5rem;
+  --success: #1A659E;
+  --success-foreground: #FBFBFB;
+  --warning: #FF6B35;
+  --warning-foreground: #FBFBFB;
+  --danger: #FF6B35;
+  --danger-foreground: #FBFBFB;
+}
+
+.dark {
+  --background: #004E89;
+  --foreground: #FBFBFB;
+  --muted: #1A659E;
+  --muted-foreground: #FFECDD;
+  --popover: #004E89;
+  --popover-foreground: #FBFBFB;
+  --card: #1A659E;
+  --card-foreground: #FBFBFB;
+  --border: #1A659E;
+  --input: #1A659E;
+  --primary: #FF6B35;
+  --primary-foreground: #FBFBFB;
+  --secondary: #1A659E;
+  --secondary-foreground: #FBFBFB;
+  --accent: #1A659E;
+  --accent-foreground: #FFECDD;
+  --destructive: #FF6B35;
+  --destructive-foreground: #FBFBFB;
+  --ring: #FF6B35;
+  --radius: 0.5rem;
+  --success: #FFECDD;
+  --success-foreground: #004E89;
+  --warning: #FF6B35;
+  --warning-foreground: #FBFBFB;
+  --danger: #FF6B35;
+  --danger-foreground: #FBFBFB;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .text-success {
+    color: hsl(var(--success));
+  }
+  
+  .text-success-foreground {
+    color: hsl(var(--success-foreground));
+  }
+  
+  .bg-success {
+    background-color: hsl(var(--success));
+  }
+  
+  .bg-success-foreground {
+    background-color: hsl(var(--success-foreground));
+  }
+  
+  .text-warning {
+    color: hsl(var(--warning));
+  }
+  
+  .text-warning-foreground {
+    color: hsl(var(--warning-foreground));
+  }
+  
+  .bg-warning {
+    background-color: hsl(var(--warning));
+  }
+  
+  .bg-warning-foreground {
+    background-color: hsl(var(--warning-foreground));
+  }
+  
+  .text-danger {
+    color: hsl(var(--danger));
+  }
+  
+  .text-danger-foreground {
+    color: hsl(var(--danger-foreground));
+  }
+  
+  .bg-danger {
+    background-color: hsl(var(--danger));
+  }
+  
+  .bg-danger-foreground {
+    background-color: hsl(var(--danger-foreground));
+  }
+}
