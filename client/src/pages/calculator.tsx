@@ -32,12 +32,12 @@ export default function CalculatorPage() {
       {/* Main Content */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Tabs defaultValue="rates" className="w-full">
-          <TabsList className="grid w-full grid-cols-2 mb-8">
-            <TabsTrigger value="rates" className="flex items-center gap-2">
+        <TabsList className="grid w-full grid-cols-1 sm:grid-cols-2 mb-8 gap-2 sm:gap-0 h-auto">
+        <TabsTrigger value="rates" className="flex items-center gap-2 text-xs sm:text-sm py-3 justify-center">
               <Building className="h-4 w-4" />
               Calculadora de Tarifas Freelance
             </TabsTrigger>
-            <TabsTrigger value="deductions" className="flex items-center gap-2">
+            <TabsTrigger value="deductions" className="flex items-center gap-2 text-xs sm:text-sm py-3 justify-center">
               <Receipt className="h-4 w-4" />
               Calculadora de Deducciones
             </TabsTrigger>
