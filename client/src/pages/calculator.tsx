@@ -61,7 +61,7 @@ export default function CalculatorPage() {
             <div className="flex justify-center items-center gap-6">
               {/* Yappy Donation */}
               <a 
-                href="https://link.yappy.com.pa/stc/y%2F4nv4rqJ5hLwKoMH1eNqBSk16Vdr9BZvaim7nGhYrA%3D" 
+                href="https://yappypa.page.link/Zi7X?hash=iRj3Jwi0JrgkZYGdBAFfRQZazEkX2HV7qBpXVpSsuLPAPozBuHFkyLbHyeM4PEIL" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-block hover:opacity-80 transition-opacity"
